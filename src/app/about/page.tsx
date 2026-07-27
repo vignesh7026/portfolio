@@ -290,7 +290,7 @@ export default function About() {
             </div>
             <div className="w-full flex items-center justify-center p-2 rounded-xl bg-black border border-neutral-950">
               <img
-                src="https://github-readme-stats.vercel.app/api?username=vignesh7026&show_icons=true&theme=dark&bg_color=00000000&title_color=22c55e&icon_color=22c55e&text_color=ffffff&hide_border=true"
+                src="https://github-stats-extended.vercel.app/api?username=vignesh7026&show_icons=true&theme=dark&bg_color=00000000&title_color=22c55e&icon_color=22c55e&text_color=ffffff&hide_border=true"
                 alt="Vigneshwaran's GitHub Stats"
                 className="w-full max-h-[175px] object-contain"
                 loading="lazy"
@@ -311,7 +311,7 @@ export default function About() {
             </div>
             <div className="w-full flex items-center justify-center p-2 rounded-xl bg-black border border-neutral-950">
               <img
-                src="https://github-readme-stats.vercel.app/api/top-langs/?username=vignesh7026&layout=compact&theme=dark&bg_color=00000000&title_color=22c55e&text_color=ffffff&hide_border=true"
+                src="https://github-stats-extended.vercel.app/api/top-langs/?username=vignesh7026&layout=compact&theme=dark&bg_color=00000000&title_color=22c55e&text_color=ffffff&hide_border=true"
                 alt="Vigneshwaran's Top Languages"
                 className="w-full max-h-[175px] object-contain"
                 loading="lazy"
