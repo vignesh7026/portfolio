@@ -124,12 +124,7 @@ export default function Footer() {
           <p className="text-neutral-500 text-xs">
             &copy; 2026 Vigneshwaran G. All rights reserved.
           </p>
-          <p className="text-neutral-500 text-xs">
-            Built with{" "}
-            <span className="text-green-500 font-medium">Next.js & React</span>, styled with{" "}
-            <span className="text-green-500 font-medium">Tailwind CSS</span> and animated by{" "}
-            <span className="text-green-500 font-medium">Framer Motion</span>.
-          </p>
+
         </div>
       </div>
     </footer>
