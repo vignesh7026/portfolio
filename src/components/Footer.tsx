@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { Mail, ArrowUpRight } from "lucide-react";
+import { Mail, ArrowUpRight, Sparkles } from "lucide-react";
 import { GithubIcon, LinkedinIcon } from "@/components/BrandIcons";
 
 export default function Footer() {
@@ -9,72 +9,72 @@ export default function Footer() {
     <footer className="w-full border-t border-neutral-900 bg-black pt-16 pb-8">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         {/* Get in Touch CTA card */}
-        <div className="relative mb-16 overflow-hidden rounded-3xl border border-neutral-900 bg-neutral-950/50 p-8 sm:p-12 md:flex md:items-center md:justify-between dotted-grid">
+        <div className="relative mb-16 overflow-hidden rounded-3xl border border-neutral-850 bg-neutral-950/70 p-8 sm:p-12 md:flex md:items-center md:justify-between dotted-grid shadow-xl shadow-black/80">
           <div className="relative z-10 space-y-4 md:max-w-xl">
-            <span className="inline-flex items-center gap-1.5 rounded-full border border-green-500/20 bg-green-500/5 px-3 py-1 text-xs font-semibold text-green-500">
-              <span className="h-1.5 w-1.5 rounded-full bg-green-500 animate-pulse" />
-              Open to Opportunities
+            <span className="inline-flex items-center gap-1.5 rounded-full border border-green-500/30 bg-green-500/10 px-3.5 py-1 text-xs font-semibold text-green-400">
+              <span className="h-1.5 w-1.5 rounded-full bg-green-400 animate-pulse" />
+              Open for Internships & Full-Time Roles
             </span>
-            <h2 className="text-3xl sm:text-4xl font-bold tracking-tight text-white">
-              Ready to start a project?
+            <h2 className="text-3xl sm:text-4xl font-extrabold tracking-tight text-white">
+              Ready to engineer the future?
             </h2>
-            <p className="text-neutral-400 text-sm sm:text-base">
-              I'm currently looking for full-stack developer internships and freelance projects. Let's build something great together.
+            <p className="text-neutral-400 text-sm sm:text-base leading-relaxed">
+              I'm actively seeking AI full-stack developer & agentic AI engineering roles, internships, and high-impact freelance projects. Let's collaborate.
             </p>
           </div>
           <div className="relative z-10 mt-6 md:mt-0 flex flex-shrink-0">
             <Link
               href="mailto:user.vignesh7026@gmail.com"
-              className="group inline-flex items-center gap-2 rounded-full bg-green-500 hover:bg-green-600 px-6 py-3.5 text-base font-semibold text-black transition-all duration-300 hover:scale-105 hover:glow-green"
+              className="group inline-flex items-center gap-2 rounded-full bg-green-500 hover:bg-green-400 px-7 py-3.5 text-base font-bold text-black transition-all duration-300 hover:scale-105 shadow-lg shadow-green-500/25"
             >
-              Send Email
+              <span>Get In Touch</span>
               <Mail className="h-4 w-4" />
             </Link>
           </div>
           {/* Subtle gradient light background glow */}
-          <div className="absolute -right-20 -top-20 h-64 w-64 rounded-full bg-green-500/5 blur-3xl" />
+          <div className="absolute -right-20 -top-20 h-64 w-64 rounded-full bg-green-500/10 blur-3xl" />
         </div>
 
         {/* Brand, Links and Socials */}
         <div className="grid grid-cols-1 md:grid-cols-12 gap-8 pb-12">
           {/* Brand */}
           <div className="md:col-span-5 space-y-4">
-            <div className="flex items-center gap-2">
-              <div className="flex h-9 w-9 items-center justify-center rounded-full border border-neutral-800 bg-neutral-950 text-sm font-bold text-white">
+            <div className="flex items-center gap-2.5">
+              <div className="flex h-9 w-9 items-center justify-center rounded-full border border-green-500/30 bg-neutral-950 text-sm font-extrabold text-green-400">
                 VG
               </div>
-              <span className="text-base font-semibold tracking-tight text-white">
+              <span className="text-base font-bold tracking-tight text-white">
                 Vigneshwaran G.
               </span>
             </div>
-            <p className="text-neutral-400 text-sm max-w-sm">
-              BCA student building full-stack apps, thoughtful UI/UX, and native Android experiences. Based in Bengaluru, India.
+            <p className="text-neutral-400 text-sm max-w-sm leading-relaxed">
+              AI Full Stack Developer & Agentic AI Engineer building autonomous agents, scalable web applications, and intuitive interfaces from Bengaluru, India.
             </p>
           </div>
 
           {/* Quick Links */}
           <div className="md:col-span-3 space-y-4">
-            <h3 className="text-sm font-semibold tracking-wider text-neutral-300 uppercase">
-              Quick Links
+            <h3 className="text-xs font-bold tracking-wider text-neutral-400 uppercase">
+              Navigation
             </h3>
             <ul className="space-y-2">
               <li>
-                <Link href="/" className="text-neutral-400 hover:text-white text-sm transition-colors">
+                <Link href="/" className="text-neutral-400 hover:text-green-400 text-sm transition-colors">
                   Home
                 </Link>
               </li>
               <li>
-                <Link href="/about" className="text-neutral-400 hover:text-white text-sm transition-colors">
+                <Link href="/about" className="text-neutral-400 hover:text-green-400 text-sm transition-colors">
                   About
                 </Link>
               </li>
               <li>
-                <Link href="/projects" className="text-neutral-400 hover:text-white text-sm transition-colors">
-                  Projects
+                <Link href="/projects" className="text-neutral-400 hover:text-green-400 text-sm transition-colors">
+                  Projects & Case Studies
                 </Link>
               </li>
               <li>
-                <Link href="/blogs" className="text-neutral-400 hover:text-white text-sm transition-colors">
+                <Link href="/blogs" className="text-neutral-400 hover:text-green-400 text-sm transition-colors">
                   Blogs
                 </Link>
               </li>
@@ -83,7 +83,7 @@ export default function Footer() {
 
           {/* Socials */}
           <div className="md:col-span-4 space-y-4">
-            <h3 className="text-sm font-semibold tracking-wider text-neutral-300 uppercase">
+            <h3 className="text-xs font-bold tracking-wider text-neutral-400 uppercase">
               Connect With Me
             </h3>
             <div className="flex items-center gap-3">
@@ -113,8 +113,8 @@ export default function Footer() {
                 <Mail className="h-5 w-5" />
               </Link>
             </div>
-            <p className="text-neutral-500 text-xs mt-2 flex items-center gap-1">
-              Bengaluru, Karnataka, India
+            <p className="text-neutral-500 text-xs mt-2 flex items-center gap-1 font-mono">
+              Bengaluru, Karnataka, India • GMT+5:30
             </p>
           </div>
         </div>
@@ -124,7 +124,6 @@ export default function Footer() {
           <p className="text-neutral-500 text-xs">
             &copy; 2026 Vigneshwaran G. All rights reserved.
           </p>
-
         </div>
       </div>
     </footer>

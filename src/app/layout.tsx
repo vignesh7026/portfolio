@@ -17,15 +17,19 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Vigneshwaran G | Full Stack Developer & UI/UX Designer",
+  title: "Vigneshwaran G | AI Full Stack Developer & Agentic AI Engineer",
   description:
-    "Personal portfolio of Vigneshwaran G, a BCA student specializing in full-stack web applications, native Android development, and intuitive UI/UX design.",
+    "Portfolio of Vigneshwaran G — AI Full Stack Developer & Agentic AI Engineer building autonomous agents, AI-powered applications, and high-performance web systems.",
   keywords: [
     "Vigneshwaran G",
-    "Portfolio",
+    "AI Full Stack Developer",
+    "Agentic AI Engineer",
+    "Autonomous AI Agents",
     "Full Stack Developer",
     "UI/UX Designer",
-    "Android Developer",
+    "Next.js",
+    "TypeScript",
+    "Python",
     "Bengaluru",
   ],
   authors: [{ name: "Vigneshwaran G" }],
